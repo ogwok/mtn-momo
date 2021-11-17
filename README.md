@@ -18,7 +18,7 @@ const CURRENCY = "EUR";
 const CALLBACK_HOST = "www.yourcallbackhost.com";
 
 mtn_momo.requestUserToPay(USER_ID, SUBSCRIPTION_KEY, AMOUNT, CURRENCY, CALLBACK_HOST);
-...
+... 
 
 ## Options
 
@@ -28,4 +28,4 @@ mtn_momo.requestUserToPay(USER_ID, SUBSCRIPTION_KEY, AMOUNT, CURRENCY, CALLBACK_
 4. CURRENCY: choose the currency you like to accept money in.
 5. CALLBACK_HOST: also specify your callback host here.
 
-NOTE: THIS IS BETA - IMPROVEMENTS WILL BE COMMING REAL QUICK IN THE COMMING WEEKS.
+NOTE: THIS IS BETA - IMPROVEMENTS WILL BE COMMING REAL QUICK IN THE COMING WEEKS. 
