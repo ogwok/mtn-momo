@@ -4,18 +4,20 @@ Easily setup mtn momo api for your javascript projects
 
 # Installation
 
-`npm i ogwok/mtn-momo --save`
+`npm i mtn-momo-api --save`
 
 Then...
 
 ...
-import { requestUserToPay } from "requestUserToPay";
+const mtn_momo = require("./mtn-momo-api");
+
 const USER_ID = "";
-const SUBSCRIPTION_KEY = SUBSCRTIPION_KEY;
+const SUBSCRIPTION_KEY = "";
 const AMOUNT = 256;
 const CURRENCY = "EUR";
-const CALLBACK_HOST = "www.yourcallbackhost.com"
-requestUserToPay(USER_ID, SUBSCRIPTION_KEY, AMOUNT, CURRENCY, CALLBACK_HOST);
+const CALLBACK_HOST = "www.yourcallbackhost.com";
+
+mtn_momo.requestUserToPay(USER_ID, SUBSCRIPTION_KEY, AMOUNT, CURRENCY, CALLBACK_HOST);
 ...
 
 ## Options

@@ -1,0 +1,29 @@
+{
+  "name": "mtn-momo-api",
+  "version": "1.0.0",
+  "description": "Easily accept payment to your web and mobile projects",
+  "main": "mtn-momo-api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "type": "module"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogwok/mtn-momo.git"
+  },
+  "keywords": [
+    "momo",
+    "mtn-momo",
+    "payments"
+  ],
+  "author": "Ogwok William Bruno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ogwok/mtn-momo/issues"
+  },
+  "homepage": "https://github.com/ogwok/mtn-momo#readme",
+  "dependencies": {
+    "btoa": "^1.2.1",
+    "request": "^2.88.2"
+  }
+}

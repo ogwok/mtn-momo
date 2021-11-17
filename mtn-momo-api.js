@@ -167,5 +167,5 @@ const requestUserToPay = (
   // const SUBSCRIPTION_KEY = SUBSCRTIPION_KEY;
   createApiUser(USER_ID, SUBSCRIPTION_KEY);
 };
+module.exports = {requestUserToPay}
 
-module.exports.requestUserToPay = requestUserToPay();
