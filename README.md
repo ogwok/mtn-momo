@@ -12,8 +12,8 @@ Use the package manager [npm](https://www.npmjs.com/) to install foobar.
 
 ## Usage
 
-```python
-import foobar
+```javascript
+const mtn_momo = require('./mtn-momo-api');
 
 # momo requires the use of UUIDv4 - this is just an example
 const USER_ID = "a94a436-40bf-465d-bac9-88ba419s8d";
