@@ -19,8 +19,8 @@ const mtn_momo = require('./mtn-momo-api');
 const USER_ID = "a94a436-40bf-465d-bac9-88ba419s8d";
 
 # use either your primary or secondary key,
-# make sure you have subscribed to the collections api
-const SUBSCRIPTION_KEY = "475706d56e944363b92d24829a13bb9c";
+# make sure you have subscribed to the collections api - just an example
+const SUBSCRIPTION_KEY = "47570gfdd56e944363ggf2d2jhg29a13bb9c";
 
 # amount you want the user to pay
 const AMOUNT = 256;
