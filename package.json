@@ -1,6 +1,6 @@
 {
   "name": "mtn-momo-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Easily accept payment to your web and mobile projects",
   "main": "mtn-momo-api.js",
   "scripts": {
