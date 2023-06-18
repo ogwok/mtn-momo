@@ -32,13 +32,12 @@ async function makeRequest({
       payeeNote
     );
 
-    console.log("Response:", response);
-
     const status = await app.getTransactionStatus(response.referenceId);
-  
-    console.log("Transaction Status:", status);
+
+    return { response, status };
   } catch (error) {
     console.error("Error:", error);
+    throw error;
   }
 }
 

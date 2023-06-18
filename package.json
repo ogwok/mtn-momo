@@ -1,8 +1,8 @@
 {
   "name": "mtn-momo-api",
-  "version": "1.0.4",
-  "description": "Easily accept payment to your web and mobile projects",
-  "main": "mtn-momo-api.js",
+  "version": "1.0.6",
+  "description": "The MTN-Momo-API is an npm package that provides a convenient and simplified way to interact with the MoMo (Mobile Money) API for making financial transactions. It abstracts the complexities of the API and offers a streamlined interface for requesting payments and retrieving transaction status.",
+  "main": "momoModule.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "type": "module"
@@ -16,7 +16,7 @@
     "mtn-momo",
     "payments"
   ],
-  "author": "Ogwok William Bruno",
+  "author": "William Ogwok",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ogwok/mtn-momo/issues"

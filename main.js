@@ -12,4 +12,11 @@ makeRequest({
   partyId: "256784771634",
   payerMessage: "testing",
   payeeNote: "testing"
-});
+})
+  .then(({ response, status }) => {
+    console.log("Response:", response);
+    console.log("Transaction Status:", status);
+  })
+  .catch(error => {
+    console.error("Error:", error);
+  });
