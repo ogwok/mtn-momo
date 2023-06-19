@@ -3,7 +3,7 @@ const { Controller } = require('./momo');
 // Create an async function to use await
 async function makeRequest({
   callbackHost,
-  userSecret,
+  userApiKey,
   userId,
   primaryKey,
   amount,
@@ -16,7 +16,7 @@ async function makeRequest({
 }) {
   const app = new Controller({
     callbackHost,
-    userSecret,
+    userApiKey,
     userId,
     primaryKey
   });

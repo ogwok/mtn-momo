@@ -2,9 +2,9 @@ const request = require("request");
 const { v4: uuidv4 } = require('uuid');
 
 class Controller {
-  constructor({ callbackHost, userSecret, userId, primaryKey }) {
+  constructor({ callbackHost, userApiKey, userId, primaryKey }) {
     this.callbackHost = callbackHost;
-    this.userSecret = userSecret;
+    this.userApiKey = userApiKey;
     this.userId = userId;
     this.primaryKey = primaryKey;
   }
@@ -59,7 +59,7 @@ class Controller {
 
   getToken() {
     return new Promise((resolve, reject) => {
-      const authorizationBasic = Buffer.from(this.userId + ":" + this.userSecret).toString('base64');
+      const authorizationBasic = Buffer.from(this.userId + ":" + this.userApiKey).toString('base64');
 
       const options = {
         method: "POST",
